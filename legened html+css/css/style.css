@@ -1,0 +1,200 @@
+/* start main rules */
+
+body{background-color: #F0F0F0;}
+.container
+{
+	width:1170px;
+	margin: auto;
+}
+
+/* end main rules */
+
+/* start header */
+.header .navbar
+{
+	background-color:#02202B;
+    overflow: hidden;
+	color:#FFF4F6;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Droid Serif', serif;
+}
+.header .navbar h2{float:left;}
+.header .navbar ul
+{
+	list-style: none;
+	float: right;
+	overflow: hidden;
+	padding:0 15px 0 0;
+}
+.header .navbar ul li
+{
+	float: left;
+	padding: 10px 10px 10px 10px ;
+	font-weight: bold
+}
+.header hr
+{
+	margin: 0;
+	border: 1.8px solid #FFC301 ;
+}
+.header .slider
+{
+	background-image: url('../imges/rr.jpg'); /*css3 */
+	-webkit-background-size: cover;  /*css3*/
+	-moz-background-size: cover; /*css3*/
+	-o-background-size: cover; /*css3*/
+	background-size: cover;
+}
+.header .slider .introo
+{
+	height: 554px;
+	text-align: center;
+}
+
+.header .slider .introo h2 span
+{
+	color:#F3BC00;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.header .slider .introo h2
+{
+	margin: 0;
+	color: #fff;
+	padding-top:120px;
+	padding-bottom: 20px;
+	font-family: 'Droid Serif', serif;
+	font-size: 40px;
+}
+
+.header .slider .introo p
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 0
+}
+.header .slider .introo form input[type="text"] 
+{
+	width: 40%;
+	/*margin-right: 190px;*/
+	padding: 8px 0;
+	text-align: center;
+	background-color: #E2E7E3;
+	border: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	margin-bottom: 15px;
+	letter-spacing: 3px
+}
+
+.header .slider .introo button
+{
+	text-align: center;
+	border: 0;
+    background-color:#EFC000;
+	padding: 13px 20px ;
+	color: #FDF0E8;
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold
+}
+.header .slider .introo .social
+{
+	margin-top: 40px;
+	margin-left: 15px
+}
+
+.header .slider .introo .social >div
+{
+	display: inline-block;
+	margin-right: 20px 
+}
+.header .slider .introo .social >div img{width: 55px}
+.header .space
+{
+	background-color:#0B313E;
+	width: 100%;
+	height: 20px;
+}
+/*end header */
+
+/* start info*/
+.inf
+{
+	background-color:#FEC401;
+	min-height: 200px
+}
+.inf .info p
+{
+	margin-top: 0;
+	text-align: center;
+	color: #F6FEFF;
+	line-height: 1.6;
+	padding-top: 50px;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Droid Serif', serif;
+}
+/*end info */ 
+
+/*start portfolio*/
+.portfolio .img
+{
+	background-color: #F0F0F0
+	padding-bottom: 20px;
+	text-align: center
+}
+.portfolio .img img
+{
+	margin-top:80px;
+	width: 100px
+}
+.portfolio .img h2
+{
+	margin-top: 9px;
+	color: #342E22;
+	font-size: 30px;
+	font-weight: bolder
+}
+/*end portfolio*/
+
+/*start images*/
+.images{padding-top: 10px;}
+.images .image
+{
+	overflow: hidden;
+	margin-left:38px;
+}
+.images .image > div
+{
+	float: left;
+	width: 30.333333%;
+	padding-right: 2.3333%
+}
+.images .image >div img
+{
+	width: 100%;
+	height: 180px;
+}
+.images .image >div h4
+{
+	padding-top: 0;
+	color: #382717;
+	text-transform: uppercase;
+	font-weight:bolder;
+	font-size: 15px;
+	padding-bottom: 0px;
+	text-align: center
+}
+.images .image >div p
+{
+	padding-top: 0px;
+	color: #9FA6AC;
+	font-family: 'Droid Serif', serif;
+	line-height: 1.5
+}
+/*end images*/

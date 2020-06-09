@@ -1,0 +1,223 @@
+/* start main rule */
+
+.container{width: 1170px;margin: auto}
+.clearfix{clear: both}
+/* end main rule */
+
+/* start header */
+
+.header .slider
+{
+ height: 490px;
+ background-image: url('../images/cover.jpg');
+ -webkit-background-size: cover; /* css3 */
+ -moz-background-size: cover;    /* css3 */
+ -o-background-size: cover;      /* css3 */
+ background-size: cover          /* css3 */
+}
+.header .slider .cover {text-align: center;padding-top: 200px}
+.header .slider .cover h2
+{
+ margin: 0 auto;
+ font-size: 50px;
+ width: 600px;
+ border-top: 4px solid #FFF;
+ border-bottom: 4px solid #FFF;
+ padding: 5px 0;
+}
+.header .slider .cover button
+{
+ background: none;
+ margin-top: 30px;
+ font-size: 20px;
+ border: 2px solid #FFF;
+ font-weight: bold;
+ padding: 10px 30px;
+ color: #FFF;
+ text-transform: capitalize
+}
+.header .navbar {background-color: #252F31;overflow: hidden;color: #fff}
+.header .navbar h2 {float: left}
+.header .navbar h2 span{color: #1BA357}
+.header .navbar ul {list-style: none;padding-left: 0;overflow: hidden;float: right}
+.header ul li {float: left;padding: 10px;text-transform: capitalize}
+.header ul li a{color: #FFF;text-decoration: none}
+.header ul li a:hover , .header ul li.active a {color: #319161}
+
+/* end header */
+
+/* start features */
+
+.features {overflow: hidden;padding: 45px 0 55px 0}
+.features .feat {float: left;width: 33.3333%;min-height: 150px}
+.features .feat h2 {color:#545E60}
+
+/* end features */ 
+
+/* start about-me */
+
+.about-me{background-color: #F2F2F2;overflow: hidden}
+.about-me .image{float: left;width: 40%}
+.about-me .image img{width: 100%}
+.about-me .info {float: left;width: 60%;overflow: hidden}
+.about-me .info h2{margin: 20px 0 8px 40px;text-transform: capitalize;color: #555}
+.about-me .info > p{margin: 0 0 10px 40px}
+.about-me .info > p:last-of-type{margin-top: 15px}
+.about-me .info .hobbies{overflow: hidden;margin:20px 0 0 40px}
+.about-me .info .hobbies .content{float: left;width: 50%;min-height: 100px;overflow: hidden}
+.about-me .info .hobbies .content .icon{float: left;width: 12%;margin-right: 5%}
+.about-me .info .hobbies .content .icon img {width: 100%;margin: 13px 10px 0 0}
+.about-me .info .hobbies .content .text{float: left;width: 83%}
+.about-me .info .hobbies .content .text h3{margin-bottom: 5px}
+.about-me .info .hobbies .content .text p{margin-top: 0}
+
+/* end about-me */
+
+/* start my-skills */
+
+.my-skills{overflow: hidden;padding: 50px 0}
+.my-skills .skills,.my-skills .progress{float: left;width: 50%}
+.my-skills .skills h2{margin: 20px 0 8px 40px}
+.my-skills .skills > p{margin: 0 0 10px 40px;line-height: 1.4;color: #666}
+.my-skills .skills > p:last-of-type{margin-top: 15px}
+.my-skills .skills button 
+{
+ margin-left: 40px;
+ margin-top: 30px;
+}
+.my-skills .progress .tech{margin-left: 50px}
+.my-skills .progress .tech h3{color: #565E60;margin-bottom: 10px}
+.my-skills .progress .tech div{background-color: #F2F2F2;height: 30px;margin-top: 10px}
+.my-skills .progress .tech div span 
+{
+ background-color: #2DCC70;
+ height: 30px;
+ display: block;
+ line-height: 30px;
+ font-weight: bold;
+ text-align: right;
+ color: #FFF
+}
+
+/* end my-skills */
+
+/* start resume */
+
+.resume{background-color: #F2F2F2;padding: 50px 0 70px;text-align: center}
+.resume h2{color: #ADB5B7}
+.resume p{padding-bottom: 15px}
+
+/* end resume */
+
+/* start my-education */
+
+.my-education{overflow: hidden;padding: 40px 0}
+.my-education .education h2{margin: 20px 0 8px 40px}
+.my-education .education > p{margin: 0 0 10px 40px;color: #666}
+.my-education .education > p:last-of-type{margin-top: 15px}
+.my-education .education  {float: left;width: 50%;margin-right: 5%}
+.my-education .exp {float: left;width: 45%}
+.my-education .exp h3{margin-top: 55px;color: #5A6264;margin-bottom: 10px}
+.my-education .exp span {display:block;margin-bottom: 10px}
+.my-education .exp span:first-of-type{color: #999}
+.my-education .exp span:last-of-type{background-color: #27CB75;color: #FFF;display: inline-block;padding:5px 10px}
+.my-education hr{height: 1px;background-color: #999;margin: 20px 0;border: 0}
+.my-education .experiment ,.my-education .exper{float: left;width: 50%}
+
+/* end my-education */
+
+/* start testimonials */
+
+.testimonials{background-color: #F2F2F2;text-align: center;padding: 50px 0 50px 0}
+.testimonials q{line-height: 1.8;color: #888;font-size:16px;font-style: italic;font-weight: bold }
+.testimonials h3{color: #777;border-bottom: 30px}
+.testimonials ul{list-style-type: none;padding: 0px;text-align: center}
+.testimonials ul li{display: inline-block;color: aqua;height: 15px;width: 15px;border: 2px solid #2FCD6C;cursor: pointer}
+.testimonials ul li.active , .testimonials ul li:hover{background-color:#2FCD6C }
+
+/* end testimonials */
+
+/* start portfolio */
+
+.portfolio{padding: 50px 0 70px 0;text-align: center}
+.portfolio h2{color: #777}
+.portfolio p{color: #666;line-height: 1.7;margin-bottom: 50px}
+.portfilio .our-work{overflow: hidden}
+.portfolio .our-work > div {float: left;width: 33.333333%;margin-bottom: 10px} 
+.portfolio .our-work > div img {width: 95%;margin-bottom: 10px;padding: 3px;background-color: #FFF;border: 1px solid #CCC}
+
+/* end portfolio */
+
+/* start contact-me */
+
+.contact {background-color: #676C6F;overflow: hidden;padding: 50px 0 70px 0}
+.contact h2 {margin-left: 40px}
+.contact p {color:#4D5353;margin-left: 40px;line-height: 1.7}
+.contact p strong{color: #D1D6D9}
+.contact .info {float: left;width: 50%;margin-right: 5%}
+.contact .form {float: left;width: 45%}
+.contact .form label {display: block;margin: 10px 0;color: #C4C9CC}
+.contact .form input[type="text"]
+{
+ width: 80%;
+ background-color: #4B5557;
+ color: #FFF;
+ padding: 10px;
+ border: 0;
+ margin-bottom: 10px
+}
+.contact .form textarea
+{
+ width: 80%;
+ background-color: #4B5557;
+ color: #FFF;
+ padding: 10px;
+ border: 0;
+ margin-bottom: 10px;
+ height: 300px
+}
+.contact .form [type="submit"]
+{
+ background-color: #1F2427;
+ color: #FFF;
+ padding: 10px 30px;
+ border: 0;
+ margin-top: 20px
+}
+/* end contact-me */
+
+/* start footer */
+
+.footer{background-color: #191E22;color: #2D3538;padding: 30px 0;text-align: center;font-weight: bold;font-style: italic}
+.footer ul{list-style-type: none;padding-left: 0;margin: 10px 0 0}
+.footer ul li{display: inline-block;cursor: pointer}
+.footer ul li img{width: 24px}
+
+
+/* end footer */
+
+
+/*start my framework */
+
+.my-button
+{
+ background: none;
+ color: #32CB71;
+ border: 2px solid #32CB71;
+ padding: 10px 30px;
+ text-transform: capitalize;
+ font-size: 15px
+}
+
+.my-p
+{
+ color: #B5B5B5;line-height: 1.4
+}
+
+h2,h3
+{
+ color: #FFF;
+ text-transform: capitalize
+}
+
+/* end my framework */
